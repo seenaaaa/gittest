@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>css 활용하기</title>
+</head>
+<body>
+  <h1>시간이란...</h1>
+  <div> 느릴 땐 너무 느리고 <p class="accent"> 빠를</p> 땐 너무 빠른 </div>
+  <p>그렇기에 <br>소중히 다루어야 할 요소.</p>
+
+  <h1>시간이란...</h1>
+  <div> 느릴 땐 너무 느리고 <span class="accent"> 빠를</span> 땐 너무 빠른</div>
+  <p>그렇기에 <br>소중히 다루어야 할 요소.</p>
+  <style media="screen">
+  .box1 {
+    width: 400px;
+    height: 100px;
+  }
+  .box1{ box-shadow: 2px -2px 5px 0px; }
+  .box2{
+    width: 50%;
+    height: 100px;
+  }
+  .box2{box-shadow: 5px 5px 15px 5px blue; }
+  </style>
+  <div class="box1"></div>
+  <div class="box2"></div>
+
+  <style>
+    #box1 { border-style: solid; }
+    #box2 { border-style: dotted; }
+    #box3 { border-style: dashed; }
+  </style>
+
+  <div id="box1">실선테두리</div>
+  <div id="box2">점선테두리</div>
+  <div id="box3">짧은직선테두리</div>
+
+
+  <style>
+    h1{
+      font-size: 5vw;
+      text-align: center;
+    }
+  </style>
+
+  <h1>안녕하세요?</h1>
+
+</body>
+
+
+</html>
